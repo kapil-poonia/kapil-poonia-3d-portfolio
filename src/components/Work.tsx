@@ -2,6 +2,7 @@ import { useState, useCallback } from "react";
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
+import { publicAsset } from "../utils/publicAsset";
 
 const projects = [
   {
@@ -9,7 +10,7 @@ const projects = [
     category: "Payments & reconciliation (Zetwerk)",
     tools:
       "Node.js, MongoDB — HDFC, ICICI, SBI; IMPS, RTGS, NEFT, A2A; maker-checker, OTP, webhooks",
-    image: "/images/bond.png",
+    image: publicAsset("images/bond.png"),
     link: "https://www.zetwerk.com",
   },
   {
@@ -17,7 +18,7 @@ const projects = [
     category: "High-scale lending flow (Jai Kisan)",
     tools:
       "Angular, Node.js — 70% conversion lift, 2M+ users, 1000+ concurrent users",
-    image: "/images/Solidx.png",
+    image: publicAsset("images/Solidx.png"),
     link: "https://www.jaikisan.com",
   },
   {
@@ -25,14 +26,14 @@ const projects = [
     category: "MERN + ML platform",
     tools:
       "Postgres, CNN, KMeans, Google Vision API — text/image abuse detection",
-    image: "/images/placeholder.webp",
+    image: publicAsset("images/placeholder.webp"),
     link: "https://github.com/kapil-poonia",
   },
   {
     title: "JobHub",
     category: "Job portal for daily wage workers",
     tools: "React, Node.js, MongoDB, Apollo GraphQL",
-    image: "/images/radix.png",
+    image: publicAsset("images/radix.png"),
     link: "https://github.com/kapil-poonia",
   },
 ];

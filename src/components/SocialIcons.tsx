@@ -8,6 +8,7 @@ import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
 import HoverLinks from "./HoverLinks";
+import { publicAsset } from "../utils/publicAsset";
 
 const SocialIcons = () => {
   useEffect(() => {
@@ -94,7 +95,7 @@ const SocialIcons = () => {
       </div>
       <a
         className="resume-button"
-        href="/kapil.pdf"
+        href={publicAsset("kapil.pdf")}
         download="kapil.pdf"
         data-cursor="disable"
       >
