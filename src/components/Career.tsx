@@ -15,58 +15,57 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Software Engineer</h4>
+                <h5>Algebrik (InCred Finance)</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Integration engineer: Java Spring Boot integrations with credit bureaus
+              (TransUnion, Equifax), Jack Henry core banking, RouteOne and Dealertrack;
+              SOAP/XML flows, mappings, retries, and reliability for financial
+              transactions.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>SDE-1 Full Stack</h4>
+                <h5>Zetwerk · Bengaluru</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2024–25</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              BIS (Bank Integration System): Node.js, MongoDB—HDFC, ICICI, SBI with
+              IMPS, RTGS, NEFT, A2A; maker-checker, OTP, reconciliation. OMS: Angular,
+              Node.js—region-aware tax engine for India and Spain with i18n.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Full Stack Developer</h4>
+                <h5>Jai Kisan · Bengaluru</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2022–24</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Bharat Khata, Check Eligibility V2 (Angular, Node.js), Neo4j, Kafka,
+              WhatsApp bot, POS dashboards—scaled eligibility to 2M+ users and 1000+
+              concurrent users; A/B testing and partner integrations.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>SDE Intern</h4>
+                <h5>Jai Kisan</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2022</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Jest tests at 90–92% coverage; asynchronous logging across microservices,
+              improving API latency by ~20%.
             </p>
           </div>
         </div>

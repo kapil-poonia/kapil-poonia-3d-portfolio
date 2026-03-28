@@ -6,11 +6,13 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          I am a software engineer focused on integrations and full-stack delivery.
+          At Algebrik (InCred Finance), I build and maintain external system
+          integrations in Java Spring Boot—credit bureaus, core banking with Jack Henry,
+          and indirect lending platforms. Previously at Zetwerk and Jai Kisan, I shipped
+          payment systems, bank integrations, and high-scale eligibility flows. I care
+          about reliable APIs, SOAP/XML pipelines, and systems that hold up under real
+          transaction load.
         </p>
       </div>
     </div>

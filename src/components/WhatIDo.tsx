@@ -87,20 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>INTEGRATIONS &amp; BANKING</h3>
+              <h4>Enterprise APIs &amp; financial systems</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                I design and maintain integrations with credit bureaus, core banking,
+                and lending platforms—SOAP/XML, retries, and reliable request/response
+                flows for production traffic.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Java &amp; Spring Boot</div>
+                <div className="what-tags">SOAP / XML</div>
+                <div className="what-tags">REST APIs</div>
+                <div className="what-tags">Kafka &amp; messaging</div>
+                <div className="what-tags">Postgres / MongoDB</div>
+                <div className="what-tags">Unit &amp; integration tests</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -125,20 +126,20 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h4>Full-stack products end to end</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                From bank payment rails and reconciliation to Angular/Node services and
+                high-traffic eligibility flows—I ship features that scale with users and
+                partners.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Angular</div>
+                <div className="what-tags">TypeScript</div>
+                <div className="what-tags">GraphQL</div>
+                <div className="what-tags">Redis &amp; Neo4j</div>
+                <div className="what-tags">AWS &amp; Docker</div>
               </div>
               <div className="what-arrow"></div>
             </div>

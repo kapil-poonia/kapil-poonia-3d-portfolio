@@ -1,8 +1,8 @@
 import {
+  FaEnvelope,
   FaGithub,
-  FaInstagram,
+  FaGlobe,
   FaLinkedinIn,
-  FaYoutube,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -61,7 +61,7 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/akashrmalhotra"
+            href="https://github.com/kapil-poonia"
             target="_blank"
             rel="noreferrer"
           >
@@ -70,7 +70,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.linkedin.com/in/akashrmalhotra/"
+            href="https://www.linkedin.com/in/kapil-poonia"
             target="_blank"
             rel="noreferrer"
           >
@@ -79,28 +79,24 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://www.youtube.com/@Leftbraincoder"
+            href="https://kapilpoonia.co.in"
             target="_blank"
             rel="noreferrer"
           >
-            <FaYoutube />
+            <FaGlobe />
           </a>
         </span>
         <span>
-          <a
-            href="https://www.instagram.com/leftbraincoder/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaInstagram />
+          <a href="mailto:123kapilpoonia123@gmail.com">
+            <FaEnvelope />
           </a>
         </span>
       </div>
       <a
         className="resume-button"
-        href="/Akash_Malhotra.pdf"
-        target="_blank"
-        rel="noreferrer"
+        href="/kapil.pdf"
+        download="kapil.pdf"
+        data-cursor="disable"
       >
         <HoverLinks text="RESUME" />
         <span>
